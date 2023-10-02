@@ -26,8 +26,15 @@ export default async function Note({selectedId, isEditing}) {
       return (
         <div className="note--empty-state">
           <span className="note-text--empty-state">
-            Click a note on the left to view something! 🥺
+            Click a note on the left to view something!
           </span>
+          <img
+            src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.gif"
+            alt="🔥"
+            width="50"
+            height="50"
+            style={{display: 'inline-block', marginBottom: '20px'}}
+          />
         </div>
       );
     }
